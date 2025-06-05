@@ -1,0 +1,40 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+form {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px auto;
+    max-width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+button {
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
